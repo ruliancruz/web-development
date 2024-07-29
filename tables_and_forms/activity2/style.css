@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+caption {
+  font-weight: bolder;
+  margin-bottom: 10px;
+  text-transform: none;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+th, td {
+  border: 2px solid white;
+  padding: 10px 20px;
+}
+
+th {
+  background-color: #9B9B9B;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #EDEDED;
+}
+
+td:nth-child(4)::after {
+  font-family: 'Font Awesome 5 Free';
+  font-size: 0.9em;
+  content: '\f30c';
+  margin-left: 5px;
+  color: #9B9B9B;
+}
+
+tfoot td {
+  text-align: center;
+  font-size: 0.9em;
+  border: none;
+  font-weight: normal;
+  text-transform: none;
+}
