@@ -1,2 +1,2 @@
-# web-dev
-Web Development Activities
+# web-development
+Web Development Activities from Computing Degree
