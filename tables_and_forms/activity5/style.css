@@ -16,7 +16,23 @@ textarea {
 }
 
 form {
-  max-width: 350px;
+  max-width: 400px;
+}
+
+.field {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.checkbox {
+  white-space: nowrap;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
 }
 
 .uppercase {
@@ -39,8 +55,16 @@ form {
   background-color: #CB9C23;
 }
 
+.width-small {
+  width: 120px;
+}
+
+.width-medium-small {
+  width: 172px;
+}
+
 .width-medium {
-  max-width: 400px;
+  width: 400px;
 }
 
 .p-1 {
