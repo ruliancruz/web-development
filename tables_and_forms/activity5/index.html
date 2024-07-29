@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manutenção de Usuários do Sistema Interno</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p class="bg-brown uppercase fw-lighter width-medium p-1 ps-2 mb-0">Sistema de Gestão Acadêmica</p>
+  <h1 class="uppercase ps-1">Manutenção de Usuários do Sistema Interno</h1>
+  <form action="/submit" method="post" class="mt ps-2">
+    <div>
+      <label for="login">Login:</label>
+      <input type="text" id="login" name="login" required>
+    </div>
+
+    <div>
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+
+    <div>
+      <label for="status">Status:</label>
+      <select name="status" id="status">
+        <option value="inactive">Inativo</option>
+        <option value="active">Ativo</option>
+      </select>
+    </div>
+
+    <div>
+      <label>Tipo:</label>
+      <input type="radio" id="technician" name="tipo" value="technician">
+      <label for="technician">Técnico</label>
+      <input type="radio" id="teacher" name="tipo" value="teacher">
+      <label for="teacher">Professor</label>
+      <input type="radio" id="student" name="tipo" value="student">
+      <label for="student">Aluno</label>
+    </div>
+
+    <div>
+      <label for="created-at">Data de Criação:</label>
+      <input type="date" id="created-at" name="created-at" required>
+    </div>
+
+    <div>
+      <label>Perfil:</label>
+      <input type="radio" id="guest" name="profile" value="guest">
+      <label for="guest">Convidado</label>
+      <input type="radio" id="administrator" name="profile" value="administrator">
+      <label for="administrator">Administrador</label>
+    </div>
+
+    <div>
+      <label for="comments">Observações:</label>
+      <textarea id="comments" name="comments" rows="5" cols="30"></textarea>
+    </div>
+
+    <div>
+      <label>Módulos:</label>
+      <input type="checkbox" id="purchases" name="modules" value="purchases">
+      <label for="purchases">Compras</label>
+      <input type="checkbox" id="library" name="modules" value="library">
+      <label for="library">Biblioteca</label>
+      <input type="checkbox" id="academic" name="modules" value="academic">
+      <label for="academic">Acadêmico</label>
+      <input type="checkbox" id="documentation" name="modules" value="documentation">
+      <label for="documentation">Documentação</label>
+      <input type="checkbox" id="human-resources" name="modules" value="human-resources">
+      <label for="human-resources">Recursos Humanos</label>
+    </div>
+
+    <div>
+      <button type="submit">Cadastrar</button>
+      <button type="reset">Excluir</button>
+    </div>
+  </form>
+</body>
+</html>
