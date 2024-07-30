@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Geral</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cadastro Geral</h1>
+  <form action="/submit" method="post">
+    <section>
+      <h2>Dados Pessoais</h2>
+    </section>
+
+    <section>
+      <h2>Localização</h2>
+    </section>
+
+    <section>
+      <h2>Faixa etária</h2>
+      
+      <section>
+        <input type="radio" id="text" name="profile" value="text">
+      <label for="text">texto</label>
+      </section>
+    </section>
+
+    <section>
+      <h2>Esportes que pratica</h2>
+
+      <section>
+        <input type="checkbox" name="sports" id="field-soccer" value="field-soccer">
+        <label for="field-soccer">Futebol de campo</label>
+      </section>
+
+      <section>
+        <input type="checkbox" name="sports" id="indoor-soccer" value="indoor-soccer">
+        <label for="indoor-soccer">Futebol de salão</label>
+      </section>
+
+      <section>
+        <input type="checkbox" name="sports" id="society-soccer" value="society-soccer">
+        <label for="society-soccer">Futebol Society</label>
+      </section>
+
+      <section>
+        <input type="checkbox" name="sports" id="indoor-volleyball" value="indoor-volleyball">
+        <label for="indoor-volleyball">Volêi de quadra</label>
+      </section>
+
+      <section>
+        <input type="checkbox" name="sports" id="beach-volleyball" value="beach-volleyball">
+        <label for="beach-volleyball">Volêi de praia</label>
+      </section>
+
+      <section>
+        <input type="checkbox" name="sports" id="pool-swimming" value="pool-swimming">
+        <label for="pool-swimming">Natação em piscina</label>
+      </section>
+
+      <section>
+        <input type="checkbox" name="sports" id="sea-swimming" value="sea-swimming">
+        <label for="sea-swimming">Natação em mar aberto</label>
+      </section>
+    </section>
+
+    <section>
+      <h2>Comentário</h2>
+      
+      <section>
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="8" cols="40"></textarea>
+      </section>
+    </section>
+
+    <section>
+      <button>Enviar</button>
+      <button>Limpar</button>
+    </section>
+  </form>
+</body>
+</html>
