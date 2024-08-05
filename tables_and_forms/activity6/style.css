@@ -24,8 +24,48 @@ textarea {
   grid-template-columns: 1fr 1fr;
 }
 
+.form-img {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
 .w-600 {
   width: 600px;
+}
+
+.bg-img-profession {
+  background-image: url('../activity6/images/profession.jpg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.bg-img-address {
+  background-image: url('../activity6/images/address.jpg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.bg-img-age {
+  background-image: url('../activity6/images/age.jpg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.bg-img-sport {
+  background-image: url('../activity6/images/sport.jpg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.bg-img-commentary {
+  background-image: url('../activity6/images/commentary.jpg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 .bg-light-green {
@@ -70,6 +110,14 @@ textarea {
 
 .mt-2 {
   margin-top: 20px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
 }
 
 .ms-1 {
