@@ -14,29 +14,29 @@
         <section class="border-green p-1 me-1">
           <h2>Dados Pessoais</h2>
 
-          <section>
+          <div>
             <label for="full-name">Nome completo:</label><br>
             <input type="text" id="full-name" name="full-name" class="border-dark-green">
-          </section>
+          </div>
   
-          <section class="mt-1">
+          <div class="mt-1">
             <label for="profession">Profissão:</label><br>
             <input type="text" id="profession" name="profession" class="border-dark-green">
-          </section>
+          </div>
         </section>
 
         <section class="border-green p-1 ms-1">
           <h2>Localização</h2>
   
-          <section>
+          <div>
             <label for="email">E-mail:</label><br>
-            <input type="text" id="email" name="email" class="border-dark-green">
-          </section>
+            <input type="email" id="email" name="email" class="border-dark-green">
+          </div>
   
-          <section class="mt-1">
+          <div class="mt-1">
             <label for="street">Rua:</label><br>
             <input type="text" id="street" name="street" class="border-dark-green">
-          </section>
+          </div>
         </section>
       </section>
 
@@ -44,89 +44,89 @@
         <h2>Faixa etária</h2>
         
         <section class="grid-container">
-          <section>
+          <div>
             <input type="radio" name="age-range" id="0-20" value="0-20">
             <label for="0-20">até 20 anos</label>
-          </section>
+          </div>
   
-          <section>
+          <div>
             <input type="radio" name="age-range" id="20-30" value="20-30">
             <label for="20-30">mais de 20 até 30 anos</label>
-          </section>
+          </div>
   
-          <section>
+          <div>
             <input type="radio" name="age-range" id="30-40" value="30-40">
             <label for="30-40">mais de 30 até 40 anos</label>
-          </section>
+          </div>
   
-          <section>
+          <div>
             <input type="radio" name="age-range" id="40-50" value="40-50">
             <label for="40-50">mais de 40 até 50 anos</label>
-          </section>
+          </div>
   
-          <section>
+          <div>
             <input type="radio" name="age-range" id="50-60" value="50-60">
             <label for="50-60">mais de 50 até 60 anos</label>
-          </section>
+          </div>
   
-          <section>
+          <div>
             <input type="radio" name="age-range" id="60+" value="60+">
             <label for="60+">mais de 60 anos</label>
-          </section>
+          </div>
         </section>
       </section>
 
       <section class="border-green p-1 m-1 mt-2">
         <h2>Esportes que pratica</h2>
 
-        <section>
+        <div>
           <input type="checkbox" name="sports" id="field-soccer" value="field-soccer">
           <label for="field-soccer">Futebol de campo</label>
-        </section>
+        </div>
 
-        <section>
+        <div>
           <input type="checkbox" name="sports" id="indoor-soccer" value="indoor-soccer">
           <label for="indoor-soccer">Futebol de salão</label>
-        </section>
+        </div>
 
-        <section>
+        <div>
           <input type="checkbox" name="sports" id="society-soccer" value="society-soccer">
           <label for="society-soccer">Futebol society</label>
-        </section>
+        </div>
 
-        <section>
+        <div>
           <input type="checkbox" name="sports" id="indoor-volleyball" value="indoor-volleyball">
           <label for="indoor-volleyball">Vôlei de quadra</label>
-        </section>
+        </div>
 
-        <section>
+        <div>
           <input type="checkbox" name="sports" id="beach-volleyball" value="beach-volleyball">
           <label for="beach-volleyball">Vôlei de praia</label>
-        </section>
+        </di>
 
-        <section>
+        <div>
           <input type="checkbox" name="sports" id="pool-swimming" value="pool-swimming">
           <label for="pool-swimming">Natação em piscina</label>
-        </section>
+        </div>
 
-        <section>
+        <div>
           <input type="checkbox" name="sports" id="sea-swimming" value="sea-swimming">
           <label for="sea-swimming">Natação em mar aberto</label>
-        </section>
+        </div>
       </section>
 
       <section class="border-green p-1 m-1 mt-2">
         <h2>Comentário</h2>
         
-        <section>
+        <div>
           <label for="message">Mensagem:</label><br>
           <textarea id="message" name="message" rows="8" cols="40" class="border-dark-green"></textarea>
-        </section>
+        </div>
       </section>
   
       <section class="p-1 pt-0 mt-0">
-        <button class="border-dark-green mt-0">Enviar</button>
-        <button class="border-dark-green mt-0">Limpar</button>
+        <button type="submit" class="border-dark-green mt-0">Enviar</button>
+        <button type="reset" class="border-dark-green mt-0">Limpar</button>
       </section>
     </section>
   </form>
