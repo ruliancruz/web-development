@@ -1,0 +1,107 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+input {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.outer-section {
+  height: 18vh;
+}
+
+.inner-section {
+  height: 54vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 20px;
+  margin: 20px 0;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+}
+
+.width-small {
+  width: 40vw;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.my-2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my-4 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.ms-2 {
+  margin-left: 40px;
+}
+
+.bg-orange {
+  background-color: #FD8D01;
+}
+
+.bg-green {
+  background-color: #80FD03;
+}
+
+.bg-lighter-yellow {
+  background-color: #FFF9CE;
+}
+
+.bg-light-yellow  {
+  background-color: #F1E584;
+}
+
+.bg-yellow {
+  background-color: #FFFA15;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-blue {
+  background-color: #3E82B7;
+}
+
+.bg-pink {
+  background-color: #FDB7C1;
+}
